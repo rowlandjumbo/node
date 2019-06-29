@@ -3,7 +3,8 @@
 
 const common = require('../common');
 
-const { validateOffsetLengthWrite } = require('internal/fs/utils');
+
+const { validateOffsetLengthWrite } = require('../../lib/internal/fs/utils');
 const { kMaxLength } = require('buffer');
 
 // RangeError when offset > byteLength
